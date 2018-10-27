@@ -1,0 +1,38 @@
+body {
+    background: black;
+    color:#FFF;
+}
+
+h1 {
+    text-align: center;
+}
+
+#carousel {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel {
+    margin: 10px auto;
+    width: 700px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+    list-style:none;
+    padding: 0; 
+}
+
+.carrousel li {
+    display: none;
+    position: absolute;
+    top: auto;
+    left: 0;
+}
+
+.button-previous, .button-next {
+	margin-top: 200px;
+}
+
+.button-previous span:hover, .button-next span:hover {
+	cursor: pointer;
+}
